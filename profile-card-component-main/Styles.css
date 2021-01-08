@@ -105,11 +105,13 @@ h1{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-.divider{
+hr{
     position: relative;
     bottom: -140px;
-    border-bottom: 1px solid hsla(0, 0%, 59%, 0.322);
-    border-bottom-width: thin;
+    border: 0;
+    background-color: #DDDDDD;
+    height: 1px;
+    margin: 0;
   }
 @media screen and (max-width: 375px){
     body{
